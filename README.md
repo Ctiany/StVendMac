@@ -1,5 +1,5 @@
-#Stereotypical Vending Machine Model
-##Description
+# Stereotypical Vending Machine Model
+## Description
 This project is created by the creator during a research program. This project generally focuses on creating such a piece of code to reveal potential security problems that might occur for stereotypical vending machine models. Granted, a lot of problems have been discovered. However, there might still be more problems that would require fixing. Additionally, there are some flaws, and the creator is planning to fix them in the future. However, it might take a while before the next change, because the creator, as a high school student, has to face a lot of other work currently.
 
 Please notice that this is only a bare-bone creation aiming to simulate the most basic actions of a vending machine, and does not include any real products.
@@ -8,7 +8,7 @@ It focuses on simulating the actions of the core components of a vending machine
 
 **The author does not take any responsibility for damages caused by this code.**
 
-##Prequisites
+## Prequisites
 
 To use it, you will need the following:
 
@@ -24,7 +24,7 @@ In addition to the hardware components, you should also have an [Arduino IDE](ht
 
 Apart from that, you will need to fill in the network details respectively on line 387 and line 412 for the ESP32 code file, and the client details on line 13 and line 42 for the server code file, following the instructions in the comments. You can fill in the Wi-Fi details and the server details first, connect the board to the Wi-Fi, and watch the Serial output to gain the IP address of the board, before filling that into the server file.
 
-##How to Use
+## How to Use
 
 The file named "Stereotype_E1.ino" is the code file for the ESP32 board and should be burnt into the board using an Arduino IDE, after making the changes required. The file named "server.py" is the code file for the server and should be run locally on the computer with an Internet connection.
 
@@ -36,6 +36,6 @@ Firstly, type an approved ID using the keypad. Currently, the accepted IDs are 1
 
 Then, you can type a commodity number. The machine will verify the commodity number and dispense the product if the commodity number is genuine and you have enough balance. In reality, the action of dispensing would be simply turning the servo motor, and there will be no real products dispensed.
 
-##PS
+## PS
 
 If the creator becomes a hobbyist in the future, this may work as a valuable repository created by the creator, for it is (was) the first stone of the creator's code journey.
